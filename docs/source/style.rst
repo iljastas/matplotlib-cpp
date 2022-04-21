@@ -14,10 +14,10 @@ for the plot commands. To set the line style it can be used as follows.
 .. code-block:: cpp
 
   // for a red dashed line with circle markers
-  plt::plot(x, y, {{"color", "red"}, {"marker": "o"}, {"linestyle": "--"}})
+  plt::plot(x, y, {{"color", "red"}, {"marker", "o"}, {"linestyle", "--"}})
 
   // shorthand notation for color and linestyle is usually supported
-  plt::plot(x, y, {{"c", "red"}, {"marker": "o"}, {"ls": "--"}})
+  plt::plot(x, y, {{"c", "red"}, {"marker", "o"}, {"ls", "--"}})
 
 See sections `Marker`_, `Color`_ and `Line`_
 for supported values.
